@@ -28,15 +28,15 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 /// 1. Your App Name (Appears in top AppBar and Welcome Screen)
 /// Examples: 'Tasky', 'PocketWise', 'ResQ', 'HabitHero', 'BullsEye'
-const String appTitle = 'Tasky';
+const String appTitle = 'StudyBuddy';
 
 /// 2. What noun does your app manage?
 /// Examples: 'Task', 'Expense', 'Contact', 'Habit', 'Target'
-const String itemNoun = 'Task';
+const String itemNoun = 'Query';
 
 /// 3. Hint text shown inside the input box
 /// Examples: 'Enter new task...', 'Enter expense description...', 'Enter habit...'
-const String inputHintText = 'Enter a new task...';
+const String inputHintText = 'Enter a new Query...';
 
 /// 4. Icon displayed beside each item in your list
 /// Examples:
@@ -45,7 +45,7 @@ const String inputHintText = 'Enter a new task...';
 /// - Contacts: Icons.phone
 /// - Habits: Icons.fitness_center
 /// - Goals: Icons.flag
-const IconData itemIcon = Icons.check_circle_outline;
+const IconData itemIcon = Icons.live_help;
 
 /// 5. Your team theme accent color
 /// Examples: Color(0xFF0E7C86) [Teal], Color(0xFF2563EB) [Blue], Color(0xFF7C3AED) [Purple]
@@ -56,19 +56,19 @@ const Color themeColor = Color(0xFF0E7C86);
 /// - Tasky: ['General', 'Priority', 'Review']
 /// - PocketWise: ['Food', 'Transport', 'Study']
 /// - HabitHero: ['Morning', 'Afternoon', 'Evening']
-const List<String> itemCategories = ['General', 'Priority', 'Review'];
+const List<String> itemCategories = ['Subject', 'Chapter', 'Query'];
 
 /// 7. Default starter items for your team app
 final List<TeamItem> defaultStarterItems = [
   TeamItem(
     title: 'Review Flutter sprint slides',
     date: DateTime.now(),
-    category: 'Priority',
+    category: 'Subject',
   ),
   TeamItem(
     title: 'Prepare team project demo',
     date: DateTime.now().add(const Duration(days: 2)),
-    category: 'General',
+    category: 'Chapter',
   ),
 ];
 
