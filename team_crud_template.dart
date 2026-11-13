@@ -49,7 +49,7 @@ const IconData itemIcon = Icons.live_help;
 
 /// 5. Your team theme accent color
 /// Examples: Color(0xFF0E7C86) [Teal], Color(0xFF2563EB) [Blue], Color(0xFF7C3AED) [Purple]
-const Color themeColor = Color(0xFF0E7C86);
+const Color themeColor = Color(0x4C3D19);
 
 /// 6. Category / Tag options for your team app
 /// Examples:
@@ -61,12 +61,12 @@ const List<String> itemCategories = ['Subject', 'Chapter', 'Query'];
 /// 7. Default starter items for your team app
 final List<TeamItem> defaultStarterItems = [
   TeamItem(
-    title: 'Review Flutter sprint slides',
+    title: 'Pick a Subject',
     date: DateTime.now(),
     category: 'Subject',
   ),
   TeamItem(
-    title: 'Prepare team project demo',
+    title: 'Pick a Chapter',
     date: DateTime.now().add(const Duration(days: 2)),
     category: 'Chapter',
   ),
